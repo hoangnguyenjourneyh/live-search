@@ -13,7 +13,7 @@ export function SearchPage() {
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const getUsersInfo = useCallback(
-    throttleFunc((value) => dispatch(fetchUser(value)), 5800),
+    throttleFunc((value) => dispatch(fetchUser(value)), 6000),
     []
   );
 
