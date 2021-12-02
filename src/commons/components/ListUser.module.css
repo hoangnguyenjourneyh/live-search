@@ -1,0 +1,17 @@
+.table {
+  margin: auto;
+  border-spacing: 21px;
+}
+
+.avatar {
+  width: 150px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.type {
+  background-color: #bddbff;
+  font-size: 13px;
+  padding: 4px 29px;
+  border-radius: 6px;
+}
